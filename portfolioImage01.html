@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haydn Fee - Portfolio Image</title>
+<link href="css/foundation.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/app.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+	<h2 class="hidden">Portfolio Image 01</h2>
+		
+	<header id="headerHome">
+		<a href="index.php"><img src="images/logo.svg" id="logo" alt="logo"></a>
+		<div class="navMenu">
+			<img src="images/hamNav.png" id="hamBtn" alt="nav">
+			<div class="dropDownContent">
+				<a href="index.php">Home</a>
+				<a href="work.html">Design &amp; Illustration</a>
+				<a href="contact.php">Contact Me</a>
+			</div>
+        </div>
+	</header>
+	
+	<h2 class="hidden">Main Menu</h2>
+	<div id="sideNav">
+		<div id="sideNavLink">
+			<a href="index.php">HOME<img src="images/homeIcon.svg"></a>
+			<a href="work.html">PORTFOLIO<img src="images/portfolioIcon.svg"></a>
+			<a href="contact.php">CONTACT<img src="images/mailIcon.svg"></a>
+		</div>
+		<img id="sideNavLogo" src="images/logo.svg">
+	</div>
+
+    <section class="featuredCon">
+        <div class="featuredImg">
+            <img src="images/XB1home.jpg" alt="featured image">
+		</div>
+
+			<p class="imgType">UI/UX Redesign</p>
+
+			<p class="featuredText">
+				Technology Used:<br>
+				Photoshop<br>
+			<span><a href="work.html" id="returnBTN">Return to Portfolio</a></span></p>
+
+				<h3 class="featuredTextTitle">The Current UI/UX Shortcomings</h3>
+
+				<p class="featuredText">
+					First, let's talk about the current UI before I get into the redesign. <br><br>
+					Ever since the Xbox One was first released, I'd hear one complaint over and over from all kinds of sources. It's nothing to do with games or technical capabilities 
+					or the ever controversial DRM functions. It was the interface. I figured it couldn't be THAT bad until I tried navigating the maze of an interface myself. The first issue
+					is nested menus inside more nested menus. Just to launch the Youtube app, we had to dig into a total of 3 menus. Three, just to launch the most popular video streaming
+					service available. That's about 2 too many if you ask me.<br>
+					 Next is less about visual appeal or finding a game or app, it's how you physically navigate. Inaccurately holding and/or repeatedly tapping the control stick 
+					 is unnatural. It not only puts a strain on the user's thumb, but it's also worse for those with disabilities.<br>
+					The last major thing that needed to be addressed is the "identity crisis" that Microsoft gives all of their products. Ever since Win8, every Microsoft product including Win10, 
+					phones and, the Xbox One have been designed to have similar interfaces. While the tiled icons work great for computers and phones where you have a free range of motion 
+					and have immediate access to whatever is on screen, console is a completely different story as explained above. It's likely that Microsoft wanted to give their brand a
+					recognizable look, and that's not a bad thing. But you can't simply take an interface designed for mobile devices, and use it across so many different platforms. It just
+					won't translate as well across the board.
+				</p>
+
+				<h3 class="featuredTextTitle">The Redesign</h3>
+					<img src="images/XB1home.jpg" class="featuredImg" alt="home-quickUI">
+				<p class="featuredText">
+					I wanted to first think of the core methods of navigation. What are people using these controllers accustomed to? What will feel the most natural? Most of the top games on
+					consoles are shooters. With this information, it's safe to say that most players have a natural affinity to rapidly tapping these buttons. So I wanted to base any menu navigation
+					that required more than a few button presses around the shoulder buttons and page scrolling. Also for players with hand disabilities, the shoulder buttons are easier to reach 
+					for those who don't have access to controller attachments. The "tab" like major and submenu help reduce the number of nested menus. With this there would be, at most, 2 nested menus.
+					With the submenu in a clean listed format, there will no longer be the need to search through the mess of icons on screen. Simply scroll through the list.
+				</p>
+					<img src="images/XB1game.jpg" class="featuredImg" alt="game-ownedUI">
+				<p class="featuredText">
+					Here we see how vertical menus would work. Having to enter a new screen to view these lists is clunky and can bring the user out of the interfaces flow so I tried to minimize load
+					screens. The challenge here is trying to integrate the usability of the screen selection menus into the vertical menus which can hold hundreds of options. The obvious solution
+					is to implement a way to scroll page by page.
+				</p>
+
+					<img src="images/XB1options.jpg" class="featuredImg" alt="settings-personalUI">
+				<p class="featuredText">
+					You can try pretty hard to be innovative with things like options menus, but you can't escape the fact that there will be a lot of menus and even more options. The format above is
+					what pretty much every console or game uses and it's used for a reason. I've seen all kinds of other cool menus including a wheel select and other kinetic based designs. They felt 
+					cool but who wants to stick around on a config screen any longer then necessary just to see an animation? 
+				</p>
+
+    </section>
+
+	<footer>
+		<div id="footercon">
+				<a href="">
+						<img class="socialLink" src="images/linkedin_logo.png" alt="linkedin logo">
+					</a>
+			<ul id="footerNav">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="work.html">Design&amp;Illustration</a></li>
+				<li><a href="contact.php">Contact Me</a></li>
+			</ul>
+			</div>
+	</footer> 
+	
+	<!--js load command line-->
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script src="js/jquery.textillate.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

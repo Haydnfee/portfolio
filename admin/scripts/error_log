@@ -1,0 +1,2 @@
+[08-Apr-2018 23:28:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$first_name' (T_VARIABLE) in /home3/haydnfee/public_html/admin/scripts/contact.php on line 5
+[08-Apr-2018 23:28:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/haydnfee/public_html/admin/scripts/mail.php on line 16
